@@ -1,0 +1,78 @@
+{
+  "Generalità": [
+    "Il presente documento contiene una succinta descrizione delle funzionalità richieste al software di Gestione Mensa, in base al futuro modus operandi della mensa aziendale di Aci Informatica."
+  ],
+  "Backend: definizione dei menu, ingredienti, regole operative.": [
+    "ACI Informatica metterà a disposizione dell'azienda di ristorazione uno specifico portale web “mensa” e/o un'apposita app, nei quali il fornitore dovrà inserire preventivamente il menu mensile stabilito, con il dettaglio dei piatti e delle caratteristiche organolettiche dei singoli ingredienti utilizzati per la loro preparazione, e le regole aziendalmente definite per la scelta dei piatti."
+  ],
+  "Menu speciali (piatti dietetici).": [
+    "Il fornitore dovrà prevedere l'inserimento - nel portale web di cui sopra - di specifici menù contenenti piatti dietetici (es.: celiachia) per i commensali che ne faranno richiesta preventiva, in base a specifiche prescrizioni mediche.",
+    "Tali menù dietetici saranno personalizzati sul singolo commensale, in modo tale da essere inequivocabilmente riconducibili al destinatario, e dovranno essere visibili esclusivamente nell'area riservata di quest'ultimo, nel rispetto delle normative vigenti in materia di privacy.",
+    "Nel caso di intolleranza al glutine la scelta dei prodotti da somministrare dovrà essere effettuata utilizzando il Prontuario dell'Associazione Italiana di Celiachia. Per la preparazione dei pasti per i celiaci si devono utilizzare flussi produttivi e attrezzature separate (per conservazione, preparazione e distribuzione dei pasti).",
+    "Qualora l'impresa offra anche menù con piatti dietetici, in aggiunta ai menù con i piatti base proposti, i menù dietetici dovranno essere corredati da una specifica scheda dietologica."
+  ],
+  "Prenotazione del pasto e del turno-mensa.": [
+    "Ogni commensale prenoterà il pasto attraverso il portale mensa o l'app di cui sopra, il giorno precedente a quello di consumazione ovvero anche su base settimanale.",
+    "I dipendenti potranno scegliere le pietanze da consumare tra quelle previste dal menù.",
+    "Per ciascun piatto, il sistema fornirà l'elenco e le caratteristiche organolettiche degli ingredienti utilizzati, precedentemente inseriti dall'Impresa nel sopra citato portale web."
+  ],
+  "Accesso alla mensa e ritiro del pasto.": [
+    "Per accedere alla consumazione, il dipendente utilizzerà il proprio badge passandolo nel terminale posto all'inizio della linea self service e collegato ad una stampante.",
+    "La ricevuta emessa, in cui risulteranno i piatti prenotati, dovrà essere consegnata al personale addetto alla linea per il ritiro delle pietanze.",
+    "Le pietanze dovranno essere impiattate al momento della consegna."
+  ],
+  "Commensali non prenotati e visitatori.": [
+    "Il dipendente che dimentica di prenotare entro il termine prestabilito, potrà comunque usufruire del servizio mensa. La scelta dei piatti potrà avvenire solo tra le pietanze al momento disponibili.",
+    "I visitatori potranno usufruire della mensa, a fronte di una specifica autorizzazione del Responsabile della struttura ricevente di ACI Informatica. La scelta dei piatti potrà avvenire solo tra le pietanze al momento disponibili."
+  ],
+  "Composizione del pasto (regole aziendali).": [
+    "Ogni commensale ha diritto giornalmente ad un pasto cosi composto:",
+    {
+      "list_items": [
+        "un primo piatto fra due scelte di cui una minestra; comunque tutti i giorni in aggiunta deve essere proposto un primo piatto in bianco (pasta, pasta integrale e riso) e uno al pomodoro (pasta, pasta integrale e riso);",
+        "un secondo piatto caldo fra tre scelte; comunque tutti i giorni in aggiunta deve essere proposta carne e pesce ai ferri in trancia della grammatura indicata nell'Allegato B, due tipi di piatti freddi e due tipi di “insalatone”;",
+        "un contorno caldo fra due scelte di cui almeno uno preparato con verdure fresche o in alternativa un contorno freddo fra quattro scelte di cui almeno 3 preparate con verdure fresche;",
+        "pane o grissini con possibile scelta fra quattro tipi di pane;",
+        "una porzione di frutta di stagione con possibile scelta tra almeno cinque tipi di frutta di cui una cotta o, in sostituzione, uno yogurt;",
+        "una volta a settimana dolce in alternativa alla frutta; ",
+        "acqua minerale naturale o gassata o bevanda da somministrare in quantità e con modalità proposte dall'Impresa. Tali quantità e modalità di somministrazione saranno oggetto di valutazione tecnica. "
+      ]
+    },
+    "In alternativa al primo piatto (in base al menù del giorno):",
+    {
+      "list_items": [
+        "una porzione di formaggio;",
+        "uno yogurt;",
+        "un contorno;",
+        "una porzione di frutta di stagione o frutta cotta;",
+        "una porzione di dessert."
+      ]
+    },
+    "In alternativa al secondo piatto (in base al menù del giorno):",
+    {
+      "list_items": [
+        "una porzione di prosciutto cotto; ",
+        "una porzione di formaggio escluso grana e parmigiano;",
+        "una porzione di prosciutto crudo. "
+      ]
+    },
+    "In alternativa al contorno:",
+    {
+      "list_items": [
+        "una porzione di frutta di stagione o frutta cotta."
+      ]
+    },
+    "All'ingresso della linea self-service il dipendente procederà alla registrazione del pasto con il passaggio del proprio badge aziendale sul rilevatore elettronico di presenza installato da ACI Informatica, e ritirerà la ricevuta da consegnare agli addetti per il ritiro delle pietanze precedentemente prenotate.",
+    "Le registrazioni sul rilevatore elettronico di presenza costituiranno per l'Impresa il giustificativo per la determinazione giornaliera del numero dei pasti erogati da fatturare ad ACI Informatica con cadenza mensile."
+  ],
+  "Turni di mensa": [
+    "L'accesso dei commensali alla mensa sarà scaglionato in più turni consecutivi (indicativamente tre).",
+    "Ogni commensale, nel prenotare il pasto, dovrà scegliere e prenotare anche il turno in cui desidera usufruire della mensa.",
+    "L'applicazione dovrà visualizzare agli utenti, in tempo reale, il numero di posti liberi/occupati per ciascun turno mensa, e vieterà ulteriori prenotazioni per quei turni che abbiano raggiunto il tutto occupato.",
+    "Dovranno essere personalizzabili il numero dei turni e i rispettivi orari, come pure il numero di posti assegnabili a ciascun turno."
+  ],
+  "Reportistica e contabilizzazione": [
+    "Il servizio è a consumo, e con periodicità mensile il Responsabile ACI Informatica del contratto effettuerà il consuntivo dei pasti erogati sulla base dei parametri quantitativi contenuti nei rapporti di monitoraggio.",
+    "Questi dati saranno riportati in una o più schede di avanzamento attività, che verificate dalle parti rappresenteranno l'accettazione del servizio."
+  ]
+}
