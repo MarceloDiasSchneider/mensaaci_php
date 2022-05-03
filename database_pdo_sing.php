@@ -19,7 +19,7 @@ class DatabasePdoClass
     {
 
         $whitelist = array('localhost', '127.0.0.1', '192.168.33.31');
-        $ovhlist = array('51.91.97.200');
+        $ovhlist = array('51.91.97.200', "107.180.25.194");
         if (in_array($_SERVER['HTTP_HOST'], $whitelist)) {
             // echo "locale";
             ini_set('display_errors', 1);
