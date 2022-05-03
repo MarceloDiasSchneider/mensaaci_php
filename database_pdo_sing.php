@@ -18,32 +18,12 @@ class DatabasePdoClass
     public function creaConnessione()
     {
 
-        $whitelist = array('localhost', '127.0.0.1', '192.168.33.31');
-        $ovhlist = array('51.91.97.200', "107.180.25.194");
-        if (in_array($_SERVER['HTTP_HOST'], $whitelist)) {
-            // echo "locale";
-            ini_set('display_errors', 1);
-            // error_reporting('E_ALL');
-            ini_set('display_startup_errors', 1);
-
-
-            $config = array(
-                'host' => '107.180.25.194',
-                'username' => 'MarceloSchneider',
-                'password' => 'pfekr3sJ22VjzH8',
-                'dbname' => 'mensa_aci'
-            );
-            // error_reporting('E_ALL');
-        } else if (in_array($_SERVER['HTTP_HOST'], $ovhlist)) {
-
-            $config = array(
-                'host' => '107.180.25.194',
-                'username' => 'MarceloSchneider',
-                'password' => 'pfekr3sJ22VjzH8',
-                'dbname' => 'mensa_aci'
-            );
-            // error_reporting('E_ALL');
-        }
+        $config = array(
+            'host' => '107.180.25.194',
+            'username' => 'MarceloSchneider',
+            'password' => 'pfekr3sJ22VjzH8',
+            'dbname' => 'mensa_aci'
+        );
         try {
             // connessione tramite creazione di un oggetto PDO
 
